@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::selection{
+  background:rgb(149, 249, 194);
+  color:black;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+.bg1 {
+  background-image: linear-gradient(to right top, #e88269, #ef8072, #f57e7d, #f97d88, #fd7c94, #fe8391, #ff8a8f, #ff918d, #ffa580, #ffbf75, #ffdb70, #fff877);
+}
+.bg2{
+  background-image: linear-gradient(to right, #4a63ff, #008aff, #00a8ff, #00c2ff, #00d8ff, #2be4fc, #4ceff7, #6bf9f1, #6afce2, #75fece, #87ffb9, #9effa1);
+}
+.bg3{
+  background-image: linear-gradient(to left bottom, #4affb9, #00f1dc, #00e0f7, #00cbff, #00b4ff, #3baaff, #629eff, #8690ff, #8d93ff, #9497ff, #9a9aff, #a09eff);
+}
+.bg4{
+  background-image: linear-gradient(to bottom, #4a4aff, #0073ff, #0091ff, #00a9ff, #00bfff, #40c2ff, #5bc6ff, #6fc9ff, #72bcff, #87abff, #a598fe, #c580ec);
+}
+.bg5{
+  background-image: linear-gradient(to left top, #ffe84a, #ffdf54, #ffd65e, #ffce67, #ffc770, #ffbd6e, #ffb36d, #ffa96d, #ff9865, #ff865f, #ff735d, #ff5e5e);
+}
+.bg6{
+  background-image: linear-gradient(to right top, #ff8d4a, #ff7e78, #ff7da8, #f388d3, #c899f1, #99abff, #5fbaff, #00c5ff, #00d3f5, #00dedf, #3ae7c2, #80eca3);
+}
+
+.pink{
+  background: #FB6868;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height:3rem;
+  justify-content: center;
+}
+.orange{
+  background: #FBAF68;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height:3rem;
+  justify-content: center;
+}
+.blue{
+  background: #689AFB;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height:3rem;
+  justify-content: center;
+}
+.green{
+  background: #89F0A0;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  width: 3rem;
+  height:3rem;
+  justify-content: center;
+}
+
+.box{
+  width:25px;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+  padding-left:10px;
+}
+
