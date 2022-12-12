@@ -8,7 +8,7 @@ function Others() {
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
         <div className='m-10 w-5/12 border border-gray-300 p-4 text-sm grid content-center rounded-md'>
-        <div>If you want of look at examples of each rule defined here, then click the button. </div>
+        <div>If you want of look at examples of each rule defined here, then click the button. Make sure to click on the rules to learn more! </div>
         <button className='w-12 rounded grid py-1 px-2 bg-gray-200 justify-self-end'> <a href='https://www.craft.do/s/WVg5CO7LUtsjO3' target="_blank" rel="noreferrer">Here</a></button>
         </div>
       <div className='text-3xl pb-14'>
