@@ -53,7 +53,7 @@ export default function Home() {
         </Link>
       </div>
         <button className="flex mt-10 h-auto w-fit p-2 rounded-3xl text-sm border border-gray-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-          <p className=' px-2'>Built By Rahul Rajkumar</p>
+          <p className=' px-2'>Built By Rahul R.</p>
         </button>
     </div>
   )
