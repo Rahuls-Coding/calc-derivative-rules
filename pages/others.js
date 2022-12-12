@@ -9,7 +9,7 @@ function Others() {
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
         <div className='m-10 w-5/12 border border-gray-300 p-4 text-sm flex items-center rounded-md'>
         If you want of look at examples of each rule defined here, then click the button. 
-        <button className='w-12 rounded-sm ml-24 grid justify-items-center bg-gray-200'> <a href='https://www.craft.do/s/WVg5CO7LUtsjO3' target="_blank" rel="noreferrer">Here</a></button>
+        <button className='w-12 rounded-sm ml-24 grid justify-items-center py-1 bg-gray-200'> <a href='https://www.craft.do/s/WVg5CO7LUtsjO3' target="_blank" rel="noreferrer">Here</a></button>
         </div>
       <div className='text-3xl pb-14'>
             Other Rules/Derivatives
@@ -37,6 +37,7 @@ function Others() {
                 <div className='flex justify-self-center '>
                   <img src='/trig2.png' height='10' width='150' className='py-4 self-center' alt='formula'/> 
                 </div>
+                Remember that for inverse trig functions, arcsin(x) does NOT equal 1 over sin(x). 
               </div>
             }
         
