@@ -6,13 +6,13 @@ import Link from 'next/link'
 function chain() {
   return (
       <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
-          <div className='mt-10 w-5/12 border border-gray-300 p-4 text-sm flex items-center rounded-md'>
+          <div className='mt-10 w-fit border border-gray-300 p-4 text-sm flex items-center rounded-md'>
               Scroll <p className='px-1 font-bold'>near</p> the text to view everything. (This example is a long one)
           </div>
       <div className='text-3xl pt-8 pb-12'>
             Chain Rule
           </div>
-          <div className="grid w-6/12 overflow-auto px-8"> 
+          <div className="grid sm:w-6/12 w-10/12 overflow-auto px-8"> 
               Below is the formula to chain rule: 
               <img src='/chain.png' height='10' width='250' className='py-4 justify-self-center' alt='formula'/>
               <div className=''>

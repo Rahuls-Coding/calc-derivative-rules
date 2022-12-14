@@ -6,7 +6,7 @@ import Link from 'next/link'
 function product() {
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
-      <div className='text-3xl pb-14'>
+      <div className='text-3xl sm:pb-14 p-10'>
             Product Rule
           </div>
           <div className="grid w-5/12"> 

@@ -6,10 +6,10 @@ import Link from 'next/link'
 function quotient() {
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
-      <div className='text-3xl pb-14'>
+      <div className='text-3xl sm:pb-14 p-10'>
             Quotient Rule
           </div>
-          <div className="grid w-5/12"> 
+          <div className="grid sm:w-5/12 w-8/12 overflow-auto"> 
               Below is the formula to the quotient rule: 
               <img src='/quotient.png' height='10' width='250' className='py-4 justify-self-center' alt='formula'/>
               <div className=''>
