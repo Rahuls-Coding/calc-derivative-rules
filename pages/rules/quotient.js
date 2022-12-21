@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
 
 function quotient() {
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
+      <Head>
+        <title>Quotient Rule</title>
+      </Head>
       <div className='text-3xl sm:pb-14 p-10'>
             Quotient Rule
           </div>

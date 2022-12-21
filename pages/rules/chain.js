@@ -1,11 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
+
 
 
 function chain() {
   return (
-      <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
+    <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
+      <Head>
+        <title>Chain Rule</title>
+      </Head>
           <div className='mt-10 w-fit border border-gray-300 p-4 text-sm flex items-center rounded-md'>
               Scroll <p className='px-1 font-bold'>near</p> the text to view everything. (This example is a long one)
           </div>

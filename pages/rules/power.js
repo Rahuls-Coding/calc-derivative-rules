@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 
 
 function power() {
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
+      <Head>
+        <title>Power Rule</title>
+      </Head>
       <div className='text-3xl pb-14'>
             Power Rule
           </div>
