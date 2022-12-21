@@ -5,6 +5,9 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
+      <Head>
+        <title>AP Calculus Review</title>
+      </Head>
       <div className='text-3xl sm:pb-20 p-10'>
         Derivative Rules
       </div>
