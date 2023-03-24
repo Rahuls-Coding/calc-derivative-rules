@@ -3,9 +3,19 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Group from '../components/group'
+import 'katex/dist/katex.min.css'
+import Latex from 'react-latex-next'
+
 
 
 function Others() {
+  const cosRule = '$$ \\cos x = - \\sin x$$'
+  const sinRule = '$$ \\sin x =  \\cos x$$'
+  const tanRule = '$$ \\tan x =  \\sec^2 x$$'
+  const cotRule = '$$ \\cot x =  \\csc^2 x$$'
+  const secRule = '$$ \\sec x =  \\sec x \\cdot \\tan x$$'
+  const cscRule = '$$ \\csc x =  \\csc x \\cdot \\cot x$$'
+
   return (
     <div className='flex flex-col flex-nonwrap place-content-center items-center h-screen overflow-auto p-0 relative gap-2'>
       <Head>
@@ -35,9 +45,17 @@ function Others() {
               <div className='grid overflow-auto  h-72'>
                 Here are the deriatives of the common trig functions: 
                 <div className='flex justify-self-center'>
-                  <img src='/trig1.png' height='10' width='150' className='py-4 self-center' alt='formula'/> 
+                  
+                  <div className='grid grid-rows-3 grid-flow-col gap-2 gap-x-8 text-sm py-4'>
+                    <Latex>{sinRule}</Latex>
+                    <Latex>{cosRule}</Latex>
+                    <Latex>{tanRule}</Latex>
+                    <Latex>{cotRule}</Latex>
+                    <Latex>{secRule}</Latex>
+                    <Latex>{cscRule}</Latex>
+                  </div>
                 </div>
-                Here are the derviatves of the common trig functions with their inverses: (Make sure to keep scrolling near text)
+                Here are the derviatves of the common trig functions with their inverses: 
                 <div className='flex justify-self-center '>
                   <img src='/trig2.png' height='10' width='150' className='py-4 self-center' alt='formula'/> 
                 </div>
